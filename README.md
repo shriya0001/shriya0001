@@ -9,7 +9,7 @@ I lead applied AI research projects end to end, from problem framing and data pi
 | Project | What it shows |
 |---|---|
 | [**hcc-survival-xai**](https://github.com/shriya0001/hcc-survival-xai) | Survival prediction for 1,357 liver-cancer patients from clinical and genomic data. CoxPH vs DeepSurv, then three explainability methods combined into a consensus biomarker ranking. *IEEE BMEiCON-2026 paper.* |
-| [**rsna-knee-llm-labels**](https://github.com/shriya0001/rsna-knee-llm-labels) | Only 58 of 4,407 knee MRIs had expert labels. An open-weight LLM (Qwen3-32B via vLLM) turns radiology reports in 9+ languages into soft labels for a 2.5D slice-attention model. Locked-protocol journal study in progress. |
+| **rsna-knee-llm-labels** | Only 58 of 4,407 knee MRIs had expert labels. An open-weight LLM (Qwen3-32B via vLLM) turns radiology reports in 9+ languages into soft labels for a 2.5D slice-attention model. Validation macro AUC 0.877, Kaggle public LB 0.900. Locked-protocol journal study in progress; *code released with the paper.* |
 | [**biohub-cell-tracking**](https://github.com/shriya0001/biohub-cell-tracking) | 3D cell tracking in zebrafish embryo videos (Kaggle, about 3,900 teams). Fully offline inference repair, then trained association models on a frozen detector, with fixed acceptance gates. Private score 0.763, then 0.800 with a post-deadline submission. |
 
 ### Publications
